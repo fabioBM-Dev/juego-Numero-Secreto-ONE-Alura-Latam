@@ -49,7 +49,7 @@ function verificarIntento() {
 
 function condicionesIniciales() {
     asignarTextoElemnto('h1', 'El Juego del número secreto.');
-    asignarTextoElemnto('p', `Digite un número entre 1 y ${numeroMaxJuegos}`);
+    asignarTextoElemnto('p', `Digite un número entre 1 y ${numeroMaxJuegos}, \¡¡Recuerda!! Tienes ${nummeroMaxIntentos} intentos...`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
 }
@@ -91,5 +91,6 @@ function generarNumeroSecreto() {
 condicionesIniciales();
 //console.log(numeroSecreto);
 //console.log(intentos);  
+
 
 
